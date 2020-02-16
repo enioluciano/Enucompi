@@ -1,0 +1,91 @@
+.imagem{
+    height: 70px;
+    width: 170px;
+}
+
+.imagem1{
+    height: 70px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.imagem2{
+    
+    height: 42px;
+    width: 30px;
+    
+    
+}
+.ajusteLogo{
+    border: 1px solid red;
+}
+
+
+
+
+
+/* Barra de navegação
+-----------------------------*/
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(225, 239, 253, 0.75);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    
+}
+
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #00b0ff !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+a{
+    color: #424242 !important;
+}
+
+.divisor {
+	width: 1px !important;
+	background: white !important;
+	margin: 12px 15px !important;
+}
+
+.divisor1 {
+	width: 1px !important;
+	background: black !important;
+    margin: 12px 15px !important;
+    
+}
+.fonte{
+    font-size: 34px;
+    color: #b5c4c1;
+    font-weight: 10;
+
+}
+.dropdown-item:hover{
+    background: #80d8ff !important;
+}
+
+#nav-principal{
+    
+    padding-right: 5px;
+}
+.dropdown{
+   
+    padding-right: 10px;
+}
+ #botao{
+    color: #424242 !important;
+    background: #80d8ff;
+    border: 1px solid #80d8ff;
+ }
+ #botao:hover{
+     color:  #424242 !important;
+    background: #039be5; 
+ }
