@@ -8,6 +8,10 @@
     width: 200px;
     margin-left: 20px;
 }
+html{
+    scroll-behavior: smooth;
+ }
+
 
 .imagem2{
     
@@ -86,6 +90,6 @@ a{
     border: 1px solid #80d8ff;
  }
  #botao:hover{
-     color:  #424242 !important;
+     color:  white !important;
     background: #039be5; 
  }

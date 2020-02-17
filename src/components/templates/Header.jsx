@@ -3,14 +3,13 @@ import "../css/Header.css";
 import Logo from "../../assets/img/Logo.png";
 import Ercemapi from "../../assets/img/LogoErcemapi.png";
 import Logosbc from "../../assets/img/Logosbc.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 
 
 function Header() {
   return (
     <div>
-    <nav className="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+      <nav className="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
       
       <a href="/" className="logoErc">
         <img src={Ercemapi} alt="Logoerc" className="imagem1" />
@@ -30,7 +29,8 @@ function Header() {
         data-target="#nav-principal"
       >
         
-        <FontAwesomeIcon icon={faBars}/>
+        
+        <i className="fas fa-bars text-blue"></i>
         
         
       </button>
@@ -50,7 +50,7 @@ function Header() {
               O evento
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="/#">
+              <a className="dropdown-item" href="#apresentacao">
                Apresentação
               </a>
               
@@ -159,15 +159,15 @@ function Header() {
           <li className="nav-item">
           
 
-              <button id="botao"class="btn btn-outline-primary" type="button"> INSCREVA-SE AQUI!</button>
+              <button id="botao"className="btn btn-outline-primary" type="button"> INSCREVA-SE AQUI!</button>
             
           </li>
         </ul>
       </div>
     </nav>
-
-
     </div>
+    
+    
   );
 }
 
