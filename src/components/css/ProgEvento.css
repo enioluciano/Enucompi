@@ -1,0 +1,26 @@
+
+.ProgEvento{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    
+    font-weight: 900;
+}
+.data1{
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+    color: #0276a0;
+}
+h4{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    color: inherit;
+}
+.event-session{
+    margin: 50px 0;
+}
+.divisao{
+    background: #add8e6 !important;
+}

@@ -1,6 +1,9 @@
 import React from 'react';
 import '../css/Body.css'
-import IMG from '../../assets/img/img1.jpg'
+
+import Principal from "../../assets/img/principal.jpeg";
+import Principal2 from "../../assets/img/principal2.jpeg";
+
 
 // import { Container } from './styles';
 
@@ -17,12 +20,12 @@ export default function Body() {
                 
                 <div className="carousel-item active">
                 
-                  <img src={IMG} alt="IMG"  />
+                <img src={Principal} alt="Principal" className="Principal" />
               
                 </div>
 
                 <div className="carousel-item">
-                    <img src={IMG} alt="IMG"  />
+                <img src={Principal2} alt="Principal2" className="Principal2" />
                 </div>
 
               </div>

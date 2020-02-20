@@ -1,8 +1,9 @@
 import React from "react";
 import "../css/Header.css";
 import Logo from "../../assets/img/Logo.png";
-import Ercemapi from "../../assets/img/LogoErcemapi.png";
+import Ercemapi from "../../assets/img/LogoErcemapi.jpg";
 import Logosbc from "../../assets/img/Logosbc.png";
+
 
 
 

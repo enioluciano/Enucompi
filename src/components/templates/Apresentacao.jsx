@@ -3,6 +3,7 @@ import React from "react";
 import "../css/Apresentacao.css";
 import Cuia from "../../assets/img/cuia.jpg";
 
+
 function Apresentacao() {
   return (
     <div className="container cont">
@@ -11,7 +12,7 @@ function Apresentacao() {
         <div className="col-md-6 teste">
           <img src={Cuia} alt="Cuia" className="cuia" />
           <button id="botao1"type="button" className="btn btn-primary btn-lg btn-block">
-          <i className="fas fa-edit text-blue">Fazer inscrição!</i>
+          <i className="far fa-edit text-blue">Fazer inscrição!</i>
           </button>
         </div>
 
