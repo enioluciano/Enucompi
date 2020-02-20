@@ -8,13 +8,13 @@ import Empresas from '../components/templates/Empresas'
 
 function Home() {
     return (
-      <div>
+      <>
         <Header />
         <Body />
         <Apresentacao />
         <ProgEvento />
         <Empresas />
-      </div>
+      </>
     );
   }
   

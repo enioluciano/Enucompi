@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Header.css";
 import Logo from "../../assets/img/Logo.png";
-import Ercemapi from "../../assets/img/LogoErcemapi.jpg";
+import Ercemapi from "../../assets/img/LogoErcemapi.png";
 import Logosbc from "../../assets/img/Logosbc.png";
 
 
@@ -9,7 +9,8 @@ import Logosbc from "../../assets/img/Logosbc.png";
 
 function Header() {
   return (
-    <div>
+    <>
+    <div className="container">
       <nav className="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
       
       <a href="/" className="logoErc">
@@ -168,6 +169,7 @@ function Header() {
     </nav>
     </div>
     
+    </>
     
   );
 }

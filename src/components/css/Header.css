@@ -5,11 +5,14 @@
 
 .imagem1{
     height: 70px;
-    width: 130px;
+    width: 190px;
     margin-left: 20px;
 }
 html{
     scroll-behavior: smooth;
+ }
+ .teste{
+     height: 10px;
  }
 
 
@@ -32,7 +35,7 @@ html{
 -----------------------------*/
 nav.navbar-transparente {
 	padding: 15px 0px;
-	background: rgba(225, 239, 253, 0.75);
+	background: rgba(225, 239, 253, 0.90);
 }
 
 .navbar-light .navbar-nav .nav-link {
