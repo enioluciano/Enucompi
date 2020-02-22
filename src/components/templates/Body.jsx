@@ -10,7 +10,7 @@ import Principal2 from "../../assets/img/principal2.jpeg";
 export default function Body() {
   return (
       <div className="tamanho">
-          <section id="home" className="d-flex">
+          <section id="home" className="container">
       <div className="container align-self-center">
         <div className="row">
           <div className="col-md-12 capa">

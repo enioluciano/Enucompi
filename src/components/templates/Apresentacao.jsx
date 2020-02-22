@@ -1,22 +1,22 @@
 import React from "react";
 
 import "../css/Apresentacao.css";
-import Cuia from "../../assets/img/cuia.jpg";
+import Delta from "../../assets/img/delta.jpg";
 
 
 function Apresentacao() {
   return (
-    <div className="container cont">
+    <div className="container">
       <h3 id="apresentacao">Apresentação</h3>
       <div className="row">
-        <div className="col-md-6 teste">
-          <img src={Cuia} alt="Cuia" className="cuia" />
+        <div className="col-md-6 ">
+          <img src={Delta} alt="Cuia" className="cuia" />
           <button id="botao1"type="button" className="btn btn-primary btn-lg btn-block">
           <i className="far fa-edit text-blue">Fazer inscrição!</i>
           </button>
         </div>
 
-        <div className="col-md-6 sobre">
+        <div className="col-md-6 ">
           <h2>Sobre o ERCEMAPI {"&"} ENUCOMPI</h2>
           <p>
             A<strong> VIII Escola Regional de Computação Ceará, Maranhão, Piauí

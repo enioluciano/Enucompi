@@ -1,0 +1,15 @@
+.title-event{
+    text-align: center;
+    font-size: 36px;
+    color: #333333;
+
+}
+.descrition-event{
+    color: #333333;
+    font-size: 16px;
+}
+
+.menu-principal{
+    background: url(../../assets/img/plano3.jpg);
+    padding: 5px 0px 0px 0px;
+}

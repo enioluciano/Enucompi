@@ -2,9 +2,7 @@
     padding: 50px 0px;
 }
 
-.empresas {
- border: 1px solid red;
-}
+
 .title{
     margin-top: 0;
     font-size: 36px;
@@ -23,6 +21,32 @@
 .link{
     text-decoration: none;
     color: #3A5FCD !important;
+}
+.title-sbc{
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.img-sbc-title{
+    width: 120px;
+    height: 171px;
+}
+
+.space-org{
+    margin-bottom: 100px;
+}
+
+.org{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: inherit;
+}
+p{
+    text-align: center;
 }
 
 

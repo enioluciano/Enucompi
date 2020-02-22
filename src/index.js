@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './main/App';
-//import './components/css/index.css'
+import './components/css/index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 //import { library } from '@fortawesome/fontawesome-svg-core'

@@ -1,0 +1,36 @@
+.background{
+    background: #807a99 no-repeat;
+    padding-bottom: 30px;
+}
+
+.space1{
+    padding-top: 1px;
+}
+
+.text{
+   
+    
+    font-size: 14px;
+    font-weight: 600;
+    
+    color: rgb(255, 250, 250);
+    
+    
+}
+
+.img{
+    
+    padding-bottom: 15px;
+}
+
+#icon{
+    color: white;
+    
+}
+
+.icons-geral{
+   
+    margin: 15px;
+}
+
+

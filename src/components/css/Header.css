@@ -73,6 +73,7 @@ a{
     font-size: 34px;
     color: #b5c4c1;
     font-weight: 10;
+    padding-left: 10px;
 
 }
 .dropdown-item:hover{
